@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sanbt_Jobs::job_head" title="Jobs" module="Sanbt_Jobs" sortOrder="100" parent="Magento_Backend::content" resource="Sanbt_Jobs::job_head" />
+        <add id="Sanbt_Jobs::department" title="Departments" module="Sanbt_Jobs" sortOrder="10" parent="Sanbt_Jobs::job_head" action="jobs/department" resource="Sanbt_Jobs::job" />
+        <add id="Sanbt_Jobs::job" title="Jobs" module="Sanbt_Jobs" sortOrder="20" parent="Sanbt_Jobs::job_head" action="jobs/job" resource="Sanbt_Jobs::job" />
+    </menu>
+</config>
