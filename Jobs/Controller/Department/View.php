@@ -5,7 +5,7 @@ namespace Sanbt\Jobs\Controller\Department;
 class View extends \Magento\Framework\App\Action\Action
 {
     /**
-     * @var \Maxime\Jobs\Model\Department
+     * @var \Sanbt\Jobs\Model\Department
      */
     protected $_model;
 
